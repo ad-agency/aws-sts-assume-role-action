@@ -1,0 +1,25 @@
+{
+  "name": "aws-sts-assume-role-action",
+  "version": "1.0.0",
+  "description": "Custom Action for AWS Assume Role",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ad-agency/aws-sts-assume-role-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ad-agency/aws-sts-assume-role-action/issues"
+  },
+  "homepage": "https://github.com/ad-agency/aws-sts-assume-role-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "aws-sdk": "^2.813.0"
+  }
+}
