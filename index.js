@@ -1,4 +1,4 @@
-const {STS} = require('aws-sdk');
+const { STS } = require('aws-sdk');
 const core = require('@actions/core');
 
 const assumeRole = async () => {

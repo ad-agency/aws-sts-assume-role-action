@@ -1,6 +1,6 @@
 {
   "name": "aws-sts-assume-role-action",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Custom Action for AWS Assume Role",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/ad-agency/aws-sts-assume-role-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0",
-    "aws-sdk": "^2.813.0"
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "aws-sdk": "^2.1330.0"
   }
 }
